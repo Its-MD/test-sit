@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.menu {
+    text-align: center;
+    width: 100%;
+    background-color: #566D8C;
+    padding: 15px 0;
+    position: fixed;
+}
+
+.menu-item {
+    color: #D9AE30;
+    text-decoration: none;
+    padding: 5px 20px;
+    border-radius: 20px;
+
+}
+
+.menu-item:hover {
+    background: #D9AE30;
+    color: #566D8C;
+    transition: 0.5s;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title {
+    padding-top: 270px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    color: #D9AE30;
+}
+
+.header-button {
+    margin: 15px auto;
+    display: block;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    width: 100%;
+    padding: 70px 0;
+    text-align: center;
+    
+}
+
+.about-img {
+    float: right;
+    width: 300px;
+}
+
+.about-title {
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+.team-img{
+    width: 100px;
+    height: 100px;
+}
+.team-card{
+    border: none;
+    width: 180px;
+
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    padding: 5px;
+    margin: 2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.role{
+    color:gray
+}
+.socials{
+    padding: 3.5px 50px;
+    background-color: #566D8C;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+}
+.header-button{
+    padding: 3px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #566D8C;
+    color: white;
+}
+.desc{
+    display: block;
+    height: 50px;
+}
+.team-title{
+    text-align: center;
+}
+.packs-card{
+    min-width: 300px;
+    width: 28%;
+    list-style: none; 
+    text-align: center;
+    background-color: #D9AE30;
+    border-radius: 4px;
+    display: inline-block;
+}
+.packs-items{
+    padding: 8px 0;
+    border-bottom: 2px solid black;
+}
+.item-header{
+    background-color: #566D8C;
+    color:white;
+    font-size: 20px;
+}
+.packs-button button{
+    background-color: #566D8C;
+    padding: 3px 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+.packs-button{
+    border-bottom: none;
+}
+.item-header{
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
+.packs-title{
+    text-align: center;
+}
+.contact-title{
+    text-align: center;
+}
+.whatsapp img{
+    height: 20px;
+    margin-right: 8px;
+}
+.map{
+    background-image: url(img/map-ic.svg);
+    background-repeat: no-repeat;
+    padding-left: 28px;
+}
+.info-item{
+    width: fit-content; 
+    margin: 8px;
+}
+.mail::before{
+    content: '';
+    background-image: url(img/envelope-ic.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mail{
+    padding-left: 28px;
+    position:relative;
+}
+.info{
+    list-style: none;
+}
+.contact-item{
+    width: 100%;
+    margin: 8px 0;
+}
+.contact-button{
+    background-color: #566D8C;
+    padding: 5px 35px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+@media(max-width: 500px){
+    .menu-item{
+        display: block;
+        width: 100%;
+        font-size: 25px;
+    }
+    .header-button{
+        font-size: 25px;
+    }
+    .packs-card{
+        margin: 10px auto;
+    }
+    .about-img{
+        width: 100%;
+    }
+}
